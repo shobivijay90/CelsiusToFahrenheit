@@ -1,0 +1,44 @@
+#border{
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+  border: 2px solid steelblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+#problem, label,#celtofah,#fahtocel,#clear{
+  text-align: center;
+  font-size: 20px;
+  font-family: verdana;
+}
+#values{
+text-align: center;
+padding: 10px;
+}
+input{
+  width: 100px;
+  height: 20px;
+}
+
+#submit{
+ display: flex;
+  padding: 20px;
+}
+#left-button{
+  width: 50%;
+  margin-left: 120px;
+}
+#right-button{
+  margin-left: 120px;
+ width: 50%;
+}
+#celtofah,#fahtocel,#clear{
+  background-color: steelblue;
+  box-shadow: 2px 2px gray;
+}
+#reset{
+ margin-left: 50%;
+}
+#clear{
+  background-color: red;
+}
